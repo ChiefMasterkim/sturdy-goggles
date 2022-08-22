@@ -9,15 +9,16 @@
     background-size: cover;
     min-width: 100vw;
     min-height: 100vh;
-    padding: 3rem 4rem;
+    padding: 1rem 4rem;
 }
 .header {
     display: flex;
     justify-content: space-between;
 }
 .logo img{
-    height: 2rem;
-    width: 9rem;
+    height: 6rem;
+    width: 10rem;
+    margin-bottom: 2rem;
 }
 html{
     font-size: 75%;
@@ -36,10 +37,10 @@ html{
 
 .menu{
     position: absolute;
-    top: 10%;
+    top: 15%;
 }
 .menu li{
-    padding: 2rem 0;
+    padding: 2rem 0.8rem;
     list-style: none;
     font-size: 2rem;
     text-transform: capitalize;
@@ -52,8 +53,12 @@ html{
 }
 
 .box{
-    padding-top: 10rem;
+    padding-top: 2rem;
+    margin-top: -4rem;
     padding-left: 12rem;
+}
+#one,#two{
+    font-size: 2rem;
 }
 .crate{
     padding: 2rem 1rem;
@@ -115,8 +120,13 @@ html{
 }
 
 
-
-
+ul:nth-child(2){
+    border-top: 1px solid grey;
+}
+.icons{
+    display:block;
+    
+}
 
 
 
@@ -166,6 +176,10 @@ html{
     }
     .crate{
         font-size: 1rem;
+    }
+    .logo{
+        height: 4rem;
+        width: 4rem;
     }
     #one,#two{
         border-bottom: 2px solid white;
