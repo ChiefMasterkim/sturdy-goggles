@@ -1,0 +1,83 @@
+.main{
+    padding: 15rem 15rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+.box{
+    padding: 2rem 2rem;
+    background: linear-gradient(85deg,#559DC9, #9945FF);
+}
+.time{
+    color: black;
+    font-size: 1.8rem;
+}
+.sol{
+    font-size: 4rem;
+    color:#14F195 ;
+}
+.add{
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+.format{
+    color: black;
+    font-size: small;
+}
+.words{
+    font-size: 1.1rem;
+}
+.word{
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+@media(max-width:991px){
+    .main{
+        padding: 10rem 6rem;
+    }
+    .top{
+        font-size: 1rem;
+    }
+    .time{
+        color: black;
+        font-size: .8rem;
+    }
+    .sol{
+        font-size: 2rem;
+        color:#14F195 ;
+    }
+    .add{
+        font-size: .8rem;
+        padding-top: 2rem;
+    }
+    .words{
+        font-size: 0.8rem;
+    }
+    .format{
+        color: black;
+        font-size: small;
+    }
+    .word{
+        font-size: .8rem;
+        padding-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
